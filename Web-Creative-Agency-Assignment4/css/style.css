@@ -105,8 +105,12 @@ body{
     padding: 30px !important;
     box-sizing: border-box;
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
-    
-    
+}
+.service-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #6c757d;
+    line-height: 1.5 rem;
 }
 
 .service-icon i{
@@ -149,6 +153,19 @@ body{
     height: 300px;
   }
   
+.portfolio-img i {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .portfolio-img i:hover{
+      color: #81c83c;
+  }
   .overlay {
     position: absolute;
     bottom: 0;
@@ -228,13 +245,19 @@ body{
 .features{
     margin-top: 20px;
 }
-.fa-bicycle{
+.feature-content{
+    padding: 7px;
+}
+.feature-title i{
     padding: 5px;
-    font-size: 39px !important;
+    font-size: 38px !important;
     color: #818183;
 }
 .feature-title:hover>.fa-bicycle {
     color: #81c83c;
+}
+.feature-text{
+    padding-left: 55px;
 }
 .feature-title h3{
     font-family: monospace !important;
@@ -252,14 +275,116 @@ body{
     font-size: 21px;
     font-weight: 700;
     line-height: 0.6 rem;
+    text-transform: uppercase;
 }
 .feature-content p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #6c757d;
     line-height: 1.5 rem;
-    padding-left: 50px;
 }
+/* feature styling end */
+
+
+/* about-company section start */
+.aboutcom-title h5{
+    font-family: monospace;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    
+}
+.aboutcom-title h3{
+    font-family:monospace;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+.aboutcom-title p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #6c757d;
+    line-height: 1.5 rem;
+    padding: 2px 5px 2px 5px;
+}
+.aboutcom-text{
+    padding-left: 64px !important;
+}
+.aboutcom-content h3{
+    font-family: monospace;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 0.6 rem;
+    text-transform: uppercase;
+}
+.aboutcom-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #6c757d;
+    line-height: 1.5 rem;
+    /* padding: 5px; */
+}
+.aboutcom-content span{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    background-color:#81c83c;
+    padding: 5px 0px 0px 10px !important;
+    margin-right: 25px;
+}
+.aboutcom-content i{
+    font-size: 33px ;
+}
+
+/* about company styling end */
+
+/* team sectino styling start */
+
+.team p{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+/* team section styling end */
+
+/*------------- index page styling end --------------------------*/
+
+
+/*----------------- about page styling start ----------- */
+
+
+.banner-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    
+}
+/*------------------  about page styling end--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
