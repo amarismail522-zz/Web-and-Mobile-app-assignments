@@ -242,6 +242,21 @@ body{
 
 
 /* freature styling start */
+
+
+/* .features .container{
+     /* The image used */
+    /* background-image: url("//images/sldier1.jpg"); */
+
+  /* Set a specific height */
+    /* min-height: 500px;  */
+
+  /* Create the parallax scrolling effect */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+} */
 .features{
     margin-top: 20px;
 }
@@ -344,14 +359,74 @@ body{
 /* about company styling end */
 
 /* team sectino styling start */
-
-.team p{
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);    
+.team{
+    background-color: #191919;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.team-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.team-title i{
+    padding: 5px;
+    font-size: 38px !important;
+    color: #818183;
+}
+.team-title:hover>.fa-weixin{
+    color: #81c83c;
 }
 
+.team-title h3{
+    font-family: monospace !important;
+    font-weight: 700 !important;
+    font-size: 40px;
+    text-transform: uppercase;  
+    padding: 5px;
+}
+.team img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border:2px #818183;
+    border-style:dashed;
+
+}
+
+.team-desc h5{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    line-height: 1.0rem;
+    margin-top: 20px;
+}
+.team-desc p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6c757d;
+    padding: 3px;
+}
+.team-desc a{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #5a5f63;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 3px 5px 5px 5px;
+    margin-right: 2px;
+}
+
+.team-desc .fb:hover{background-color:#3B5998;}
+.team-desc .inst:hover{background-color:#fb3958;}
+.team-desc .twi:hover{background-color:#00acee;}
+.team-desc .lin:hover{background-color:#0e76a8;}
+.team-desc .whap:hover{background-color:#075e54;}
 /* team section styling end */
 
 /*------------- index page styling end --------------------------*/
