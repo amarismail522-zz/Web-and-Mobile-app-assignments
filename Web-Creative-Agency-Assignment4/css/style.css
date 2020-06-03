@@ -14,8 +14,13 @@ body{
     background-color: #212121 !important;
     color: #fff !important;
 }
-
-.navbar-brand {
+.navbar-brand img{
+    width: 250px;
+    height: 55px;
+    padding: 0px;
+    margin-left: 90px;
+}
+/* .navbar-brand {
     font-family: monospace;
     font-size: 25px;
     letter-spacing: 2px;
@@ -23,7 +28,7 @@ body{
     margin-left: 90px;
     color: #fff !important;
     text-transform: uppercase !important;
-}
+} */
 .nav-link:hover{
     color:#81c83c !important ;
 }
@@ -36,8 +41,8 @@ body{
     color: #fff !important;
     text-transform: uppercase !important;
     font-weight: 600;
-    font-size: 15px;
-    padding: 7px;
+    font-size: 18px;
+    padding: 6px;
     margin-right: 10px;
 }
 .carousel-caption{
@@ -385,7 +390,7 @@ body{
     text-transform: uppercase;  
     padding: 5px;
 }
-.team img{
+.team-desc img{
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -427,22 +432,135 @@ body{
 .team-desc .twi:hover{background-color:#00acee;}
 .team-desc .lin:hover{background-color:#0e76a8;}
 .team-desc .whap:hover{background-color:#075e54;}
+
+.team-members{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
 /* team section styling end */
+
+/* footer styling  start*/
+/* .address-section img{
+    width: 100%;
+    height: 100%;
+} */
+.address-section {
+    background-color: #111111;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    /* width: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden; */
+}
+/* .overlayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.788);
+    opacity: 1; */
+}
+.add-part{
+    /* position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%); */
+}
+.fcontact-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fcontact-title i{
+    padding: 5px;
+    font-size: 38px !important;
+    color:#fff}
+.fcontact-title:hover>.fa-weixin{
+    color: #81c83c;
+}
+
+.fcontact-title h3{
+    font-family: monospace !important;
+    font-weight: 700 !important;
+    font-size: 40px;
+    text-transform: uppercase; 
+    color: #fff; 
+    padding: 5px;
+}
+.fcontact-title img{
+    width: 300px;
+    height: 80px;
+}
+.address-section{
+    color: #fff;
+}
+.adr-1 i{
+    color: #81c83c;
+
+}
+.adr-1{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 15px !important;
+    line-height: 0.9rem;
+}
+.address-section h5{
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: 600;
+    color: #81c83c;
+    padding-bottom: 8px;
+}
+
+.social-links a{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #5a5f63;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 3px 5px 5px 5px;
+    margin-right: 2px;
+}
+
+.fb:hover{background-color:#3B5998;}
+.inst:hover{background-color:#fb3958;}
+.twi:hover{background-color:#00acee;}
+.lin:hover{background-color:#0e76a8;}
+.whap:hover{background-color:#075e54;}
+
+
+.footerbase{
+    text-align: center;
+    background-color: #42691b;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* footer styling end */
+
+
 
 /*------------- index page styling end --------------------------*/
 
 
 /*----------------- about page styling start ----------- */
 
-
+.banner img{
+    width: 100%;
+    height: 400px;
+    height: 100%;
+}
 .banner-overlay{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-
-    
 }
 /*------------------  about page styling end--------------*/
 
@@ -496,4 +614,8 @@ body{
         
     }
 }
-
+@media (max-width: 768px){
+    .banner-overlay{
+        display: none !important;        
+    }
+}
