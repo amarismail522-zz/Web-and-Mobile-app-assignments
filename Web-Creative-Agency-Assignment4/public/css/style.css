@@ -6,10 +6,10 @@ body{
     overflow-x: hidden;
 
 }
-/* html {
+html {
     scroll-behavior: smooth;
-  } */
-/* navbar styling */
+  }
+/* /* navbar styling */
 .navbar {
     background-color: #212121 !important;
     color: #fff !important;
@@ -42,7 +42,7 @@ body{
     text-transform: uppercase !important;
     font-weight: 600;
     font-size: 18px;
-    padding: 6px;
+    padding: 12px;
     margin-right: 10px;
 }
 .carousel-caption{
@@ -121,8 +121,9 @@ body{
 .service-icon i{
     font-size: 50px ;
     background-color: #81c83c;
-    padding: 9px 12px 13px 12px;
-    border-radius: 50px;    
+    /* padding: 9px 12px 13px 12px; */
+    padding: 10px 12px 13px 15px;
+    border-radius: 100%;    
     color: #ffffff;
     margin-bottom: 15px ;
     
@@ -417,7 +418,7 @@ body{
 }
 .team-desc a{
     text-align: center;
-    width: 30px;
+    widt;h: 30px;
     height: 30px;
     color: #fff;
     background-color: #5a5f63;
@@ -536,7 +537,7 @@ body{
 
 .footerbase{
     text-align: center;
-    background-color: #42691b;
+    background-color: #81c83c;
     padding: 10px;
     color: #fff;
     font-size: 18px;
@@ -553,7 +554,6 @@ body{
 
 .banner img{
     width: 100%;
-    height: 400px;
     height: 100%;
 }
 .banner-overlay{
@@ -562,24 +562,71 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.about h2{
+    font-family: monospace !important;
+    font-weight: 700 !important;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.about hr{
+    widows: 300px !important;
+    
+}
+
+.about .col-md-6{
+    /* padding-left: 0px !important;
+    padding-right: 0px !important; */
+
+}
+.about h2{
+    margin-top: 50px;
+}
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6c757d;
+}
+
+.about h4{
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 600;
+}
+.breadcrumb{
+    margin-top: 200px;
+}
+
 /*------------------  about page styling end--------------*/
 
 
 
+/* services page styling start here */
 
 
+/* services page styling end here */
 
 
-
-
-
-
-
-
-
-
-
-
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #818183;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100%;
+    opacity: 0.5;
+  }
+  #myBtn:hover{
+      background-color: #81c83c;
+      opacity: 0.8;
+  }
 
 /* media queries */
 @media (max-width: 768px) {
